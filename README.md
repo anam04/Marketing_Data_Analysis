@@ -1,5 +1,5 @@
 # MARKETING CAMPAIGN ANALYSIS- AIDA
-Marketing Campaign Analysis
+Marketing Campaign Analysis- AIDA(Artificial Intelligence and Data Analytics)
 
 Objective
 This project analyzes customer behavior using machine learning techniques to enhance marketing strategies. The key tasks include **Exploratory Data Analysis (EDA)**, **Clustering**, and **Classification**.
