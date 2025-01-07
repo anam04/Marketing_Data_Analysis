@@ -1,4 +1,4 @@
-# AIDA_first_project
+# MARKETING CAMPAIGN ANALYSIS- AIDA
 Marketing Campaign Analysis
 
 Objective
