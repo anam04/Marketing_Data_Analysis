@@ -86,4 +86,4 @@ For further key visualizations:
 *requirements.txt → Python dependencies
 
 **ACKNOWLEDGEMENT**
-Project completed as part of the Ariificial Intelligence in Data Analytics(AIDA) course under the guidance of Professor [LinkedIn Profile](https://www.linkedin.com/in/tushar-jaruhar-9362959/) 
+Project completed as part of the Ariificial Intelligence in Data Analytics(AIDA) course under the guidance of Professor [Tushar Jaruhar](https://www.linkedin.com/in/tushar-jaruhar-9362959/) 
