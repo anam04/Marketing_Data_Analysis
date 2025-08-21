@@ -80,7 +80,10 @@ For further key visualizations:
 
 📂 **Repo Structure**:
 
-Marketing_Analysis.ipynb → main notebook with full workflow
-Marketing_DA.pdf → project presentation slides
-AIDA_Dataset(2).xlsx → dataset
-requirements.txt → Python dependencies
+*Marketing_Analysis.ipynb → main notebook with full workflow
+*Marketing_DA.pdf → project presentation slides
+*AIDA_Dataset(2).xlsx → dataset
+*requirements.txt → Python dependencies
+
+**ACKNOWLEDGEMENT**
+Project completed as part of the Ariificial Intelligence in Data Analytics(AIDA) course under the guidance of Professor [LinkedIn Profile](https://www.linkedin.com/in/tushar-jaruhar-9362959/) 
