@@ -19,6 +19,12 @@ Key components:
 - **CART (Decision Trees):** Derived interpretable decision rules; Income and Spending Score emerged as strongest loyalty predictors.  
 - **Logistic Regression:** Modeled probability of loyalty program participation; moderate predictive accuracy (45–55%).  
 
+<img width="713" height="470" alt="image" src="https://github.com/user-attachments/assets/ae684865-6d57-4055-b3dd-56f3e27f19da" />
+
+<img width="580" height="455" alt="image" src="https://github.com/user-attachments/assets/2ac5ab69-4527-4d8d-bc7f-60f23e910f08" />
+
+<img width="562" height="461" alt="image" src="https://github.com/user-attachments/assets/c99bd524-49e0-460d-9faa-9220f4b21faa" />
+
 ---
 
 ## 🚀 Quickstart
@@ -56,6 +62,15 @@ Logistic Regression
 * Naive Bayes: Accuracy peaked at ~54%, but recall varied across clusters.
 * CART: Cluster 0 performed best (53% accuracy), with clear decision rules based on Income & Spending Score.
 * Logistic Regression: Accuracies between 45–55%, F1 scores between 0.37–0.55.
+
+<img width="576" height="435" alt="image" src="https://github.com/user-attachments/assets/713f394e-6132-480a-8ac3-c55aaab7f3bc" />
+
+<img width="565" height="432" alt="image" src="https://github.com/user-attachments/assets/ace0c764-97db-4d2f-8ea9-210773e1d693" />
+
+For further key visualizations:
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1z7EGRORU73TyEfgNBkVswOSrBArDEzy-?usp=sharing)
+
 
 **Recommendations:**
 
