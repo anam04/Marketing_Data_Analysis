@@ -1,28 +1,71 @@
-# MARKETING CAMPAIGN ANALYSIS- AIDA
-Marketing Campaign Analysis- AIDA(Artificial Intelligence and Data Analytics)
+# Model-Wise Analysis on Marketing Data
 
-Objective
-This project analyzes customer behavior using machine learning techniques to enhance marketing strategies. The key tasks include **Exploratory Data Analysis (EDA)**, **Clustering**, and **Classification**.
+![license](https://img.shields.io/badge/license-Apache--2.0-blue)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1z7EGRORU73TyEfgNBkVswOSrBArDEzy-?usp=sharing)
 
-### Key Steps:
-1. **Exploratory Data Analysis (EDA):**
-   - Summarize customer data (e.g., Income, Age, Spending Score).
-   - Visualize data distributions, correlations, and patterns using histograms, box plots, and correlation matrices.
-   - Generate actionable insights about customer behavior.
+> Group project analyzing customer demographics and behavior to predict spending scores and loyalty program participation using multiple machine learning models.  
+>This project has been built by Anam Ahamed, Mihika Grover, Preksha, Siddhant Grover and Siddhi.
+---
 
-2. **Cluster Analysis:**
-   - Use **K-Means Clustering** to group customers based on spending, income, and age.
-   - Optimize clusters using the Elbow Method and interpret customer segments.
+## 🔍 Project Overview
+This project explores how different models perform in understanding and predicting customer behavior in a marketing dataset. We applied clustering, regression, and classification methods to gain insights into customer spending patterns and loyalty program participation.
 
-3. **Classification:**
-   - Apply **Naive Bayes** and **K-Nearest Neighbors (KNN)** to predict customer purchase behavior.
-   - Evaluate models using confusion matrices and compare performance.
+Key components:
+- **Clustering (K-Means):** Segmented customers into 5 clusters using the elbow method; standardized variables ensured uniform analysis.  
+- **ANOVA & Normality Testing:** Validated assumptions for regression; confirmed normal distribution through ANOVA and Q-Q plots.  
+- **Multiple Linear Regression:** Modeled spending score with predictors Age, Income, and Online Shopping Frequency; explained 94.8% of variance.  
+- **KNN:** Determined optimal `k=11`; analyzed accuracy, precision, recall, and F1 scores at cluster level.  
+- **Naive Bayes:** Compared cluster-wise accuracy and recall; highlighted challenges with false negatives.  
+- **CART (Decision Trees):** Derived interpretable decision rules; Income and Spending Score emerged as strongest loyalty predictors.  
+- **Logistic Regression:** Modeled probability of loyalty program participation; moderate predictive accuracy (45–55%).  
 
-   Deliverables:
-- **Python Script**: Documented code for data analysis, clustering, and classification with visualizations (e.g., Elbow Plot, Cluster Scatter Plots).
-- **PowerPoint Presentation**: Summarized findings for non-technical stakeholders, including business implications and actionable insights.
+---
 
-   Insights:
-- Understand customer segments for targeted marketing.
-- Predict purchase behavior to improve campaign outcomes.
+## 🚀 Quickstart
 
+### Run in Colab (Recommended)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1z7EGRORU73TyEfgNBkVswOSrBArDEzy-?usp=sharing)
+
+### Run Locally
+```bash
+git clone https://github.com/<your-username>/<repo-name>
+cd <Marketing_Data_Analysis>
+pip install -r requirements.txt
+Marketing_Analysis.ipynb
+```
+🧰 Tech Stack
+Python, Google Colab → core environment
+Libraries: NumPy, Pandas, Matplotlib, seaborn, scikit-learn
+Methods Applied:
+K-Means clustering
+Multiple Linear Regression
+K-Nearest Neighbors (KNN)
+Naive Bayes
+CART (Decision Trees)
+Logistic Regression
+
+📊 Key Findings
+
+**Spending Score Predictors:**
+* Online Shopping Frequency (+0.914 SD) and Income (+0.3429 SD) had the strongest positive effect on spending score.
+* Age was statistically insignificant.
+
+**Model Performance:**
+* Regression: R² = 0.948 → strong explanatory power.
+* KNN: Optimal k=11, but accuracy ~50%.
+* Naive Bayes: Accuracy peaked at ~54%, but recall varied across clusters.
+* CART: Cluster 0 performed best (53% accuracy), with clear decision rules based on Income & Spending Score.
+* Logistic Regression: Accuracies between 45–55%, F1 scores between 0.37–0.55.
+
+**Recommendations:**
+
+* Retain high-income, frequent shoppers with exclusive loyalty offers.
+* Promote cost-saving campaigns for low-income/infrequent shoppers.
+* Use CART decision rules for real-time, personalized marketing strategies.
+
+📂 **Repo Structure**:
+
+Marketing_Analysis.ipynb → main notebook with full workflow
+Marketing_DA.pdf → project presentation slides
+AIDA_Dataset(2).xlsx → dataset
+requirements.txt → Python dependencies
